@@ -8,8 +8,42 @@
   <link rel="stylesheet" href="font/BinggraeSamanco-Bold.otf.css">
   <link rel="stylesheet" href="css/style.css">
   <title>포트폴리오</title>
+  <style>
+    @keyframes pulsing {
+      to {
+        transform: scale(1.8);
+        opacity: 0;
+      }
+    }
+    .cloud {
+      width: 129px;
+      height: 75px;
+      top: 30px;
+      left: 200px;
+      color: #0389ff;
+      --c: radial-gradient(farthest-side,
+        currentColor 96%, #0000);
+        background: var(--c) 100% 100% / 30% 60%,
+        var(--c) 70% 0 /50% 100%,
+         var(--c) 0 100% /36% 68%,
+         var(--c) 27% 18% /26% 40%,
+         linear-gradient(currentColor 0 0)
+         bottom/67% 58%;
+         background-repeat: no-repeat;
+         position: relative;
+    }
+    .cloud:after {
+      content: "";
+      animation: pulsing 1s infinite;
+      position: absolute;
+      inset: 0;
+      background: inherit;
+      opacity: 0.4;
+    }
+  </style>
 </head>
 
+<div class="cloud"></div>
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="100">
 
   <div class="untree_co-section pb-0" id="home-section">
