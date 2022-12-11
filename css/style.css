@@ -17,6 +17,17 @@ body {
   overflow-x: hidden;
   font-size: 20px;
 }
+body::-webkit-scrollbar {
+ width: 10px;
+}
+body::-webkit-scrollbar-thumb {
+    height: 30%; /* 스크롤바의 길이 */
+    background: #03899C; /* 스크롤바의 색상 */
+    border-radius: 10px;
+}
+body::-webkit-scrollbar-track {
+    background: #292a2d;  /*스크롤바 뒷 배경 색상*/
+}
 
   body:before {
     content: "";
