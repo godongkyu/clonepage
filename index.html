@@ -52,51 +52,52 @@
     <div class="container">
       <div class="row justify-content-center text-center">
         <div class="col-md-7">
+          <!-- 원자모양 -->
+          <svg viewBox="0 0 100 100">
+            <g class="shadow">
+              <ellipse cx="50" cy="100" rx="50" ry="5"/>
+            </g>
+            <g class="core">
+              <circle cx="50" cy="50" r="10"/>
+              <circle cx="50" cy="50" r="10"/>
+            </g>
+
+            <g>
+              <g class="ring" transform="rotate(-30, 50, 50)">
+                <ellipse cx="50" cy="50" rx="20" ry="50"/>
+                <ellipse cx="50" cy="50" rx="20" ry="50"/>
+                <ellipse cx="50" cy="50" rx="20" ry="50"/>
+                <ellipse cx="50" cy="50" rx="20" ry="50"/>
+              </g>
+              <g class="ring" transform="rotate(30, 50, 50)">
+                <ellipse cx="50" cy="50" rx="20" ry="50"/>
+                <ellipse cx="50" cy="50" rx="20" ry="50"/>
+                <ellipse cx="50" cy="50" rx="20" ry="50"/>
+                <ellipse cx="50" cy="50" rx="20" ry="50"/>
+              </g>
+              <g class="ring" transform="rotate(90, 50, 50)">
+                <ellipse cx="50" cy="50" rx="20" ry="50"/>
+                <ellipse cx="50" cy="50" rx="20" ry="50"/>
+                <ellipse cx="50" cy="50" rx="20" ry="50"/>
+                <ellipse cx="50" cy="50" rx="20" ry="50"/>
+              </g>
+          </g>
+          <filter id="blur" x="-20%" y="-20%" width="140%" height="140%">
+            <feGaussianBlur stdDeviation="2"/>
+          </filter>
+          <defs>
+            <linearGradient id="gradient" x1="8%" y1="0%" x2="0%"  y2="100%">
+              <stop offset="0%" style="stop-color:#00ddfd; stop-opacity:1"/>
+              <stop offset="100%" style="stop-color:#2d6a82; stop-opacity:1"/>
+          </linearGradient>
+          </defs>
+          </svg>
+          <!-- 원자모양 -->
           <h1 class="heading gsap-reveal-hero mb-3"><strong>클론코딩</strong></h1>
         </div>
       </div>
     </div>
-    <!-- 원자모양 -->
-    <svg viewBox="0 0 100 100" style="margin-left: 605px; margin-top: -160px;">
-      <g class="shadow">
-        <ellipse cx="50" cy="100" rx="50" ry="5"/>
-      </g>
-      <g class="core">
-        <circle cx="50" cy="50" r="10"/>
-        <circle cx="50" cy="50" r="10"/>
-      </g>
 
-      <g>
-        <g class="ring" transform="rotate(-30, 50, 50)">
-          <ellipse cx="50" cy="50" rx="20" ry="50"/>
-          <ellipse cx="50" cy="50" rx="20" ry="50"/>
-          <ellipse cx="50" cy="50" rx="20" ry="50"/>
-          <ellipse cx="50" cy="50" rx="20" ry="50"/>
-        </g>
-        <g class="ring" transform="rotate(30, 50, 50)">
-          <ellipse cx="50" cy="50" rx="20" ry="50"/>
-          <ellipse cx="50" cy="50" rx="20" ry="50"/>
-          <ellipse cx="50" cy="50" rx="20" ry="50"/>
-          <ellipse cx="50" cy="50" rx="20" ry="50"/>
-        </g>
-        <g class="ring" transform="rotate(90, 50, 50)">
-          <ellipse cx="50" cy="50" rx="20" ry="50"/>
-          <ellipse cx="50" cy="50" rx="20" ry="50"/>
-          <ellipse cx="50" cy="50" rx="20" ry="50"/>
-          <ellipse cx="50" cy="50" rx="20" ry="50"/>
-        </g>
-    </g>
-    <filter id="blur" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2"/>
-    </filter>
-    <defs>
-      <linearGradient id="gradient" x1="8%" y1="0%" x2="0%"  y2="100%">
-        <stop offset="0%" style="stop-color:#00ddfd; stop-opacity:1"/>
-        <stop offset="100%" style="stop-color:#2d6a82; stop-opacity:1"/>
-    </linearGradient>
-    </defs>
-    </svg>
-    <!-- 원자모양 -->
   </div>
 
 
