@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+@font-face {
+    font-family:'SamsungOneKorean';
+    font-style:normal;
+    font-weight:normal;
+    src:url('../삼성폰트/SamsungOneKoreanOTF\ 400.otf') format("opentype"),
+        url('../삼성폰트/SamsungOneKoreanOTF\ 400C.otf') format("opentype"),
+        url('../삼성폰트/SamsungOneKorean\ 400.ttf') format("truetype"),
+        url('../삼성폰트/SamsungOneKorean\ 400_0.ttf') format("truetype");
+}
+@font-face {
+    font-family:'SamsungOneKorean';
+    font-style:normal;
+    font-weight:bold;
+    src:url('../삼성폰트/SamsungOneKoreanOTF\ 700.otf') format("opentype"),
+        url('../삼성폰트/SamsungOneKoreanOTF\ 700C.otf') format("opentype"),
+        url('../삼성폰트/SamsungOneKorean\ 700.ttf') format("truetype"),
+        url('../삼성폰트/SamsungOneKorean\ 700_0.ttf') format("truetype");
+}
